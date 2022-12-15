@@ -547,6 +547,14 @@ video {
   margin-left: 0.25rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -622,6 +630,14 @@ video {
 
 .bg-dollar {
   background-image: url('../assets/dollar.png');
+}
+
+.bg-key {
+  background-image: url('../assets/key.png');
+}
+
+.bg-message {
+  background-image: url('../assets/message.png');
 }
 
 .bg-cover {

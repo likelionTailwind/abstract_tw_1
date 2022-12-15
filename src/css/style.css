@@ -654,3 +654,81 @@ video {
 [hidden] {
   display: none;
 }
+
+@media (min-width: 640px) {
+  .sm\:absolute {
+    position: absolute;
+  }
+
+  .sm\:relative {
+    position: relative;
+  }
+
+  .sm\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .sm\:right-0 {
+    right: 0px;
+  }
+
+  .sm\:top-0 {
+    top: 0px;
+  }
+
+  .sm\:left-0 {
+    left: 0px;
+  }
+
+  .sm\:bottom-4 {
+    bottom: 1rem;
+  }
+
+  .sm\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
+  .sm\:bottom-10 {
+    bottom: 2.5rem;
+  }
+
+  .sm\:bottom-12 {
+    bottom: 3rem;
+  }
+
+  .sm\:right-2 {
+    right: 0.5rem;
+  }
+
+  .sm\:right-3 {
+    right: 0.75rem;
+  }
+
+  .sm\:basis-20 {
+    flex-basis: 5rem;
+  }
+
+  .sm\:basis-28 {
+    flex-basis: 7rem;
+  }
+
+  .sm\:basis-24 {
+    flex-basis: 6rem;
+  }
+
+  .sm\:basis-32 {
+    flex-basis: 8rem;
+  }
+
+  .sm\:basis-52 {
+    flex-basis: 13rem;
+  }
+
+  .sm\:basis-48 {
+    flex-basis: 12rem;
+  }
+
+  .sm\:basis-44 {
+    flex-basis: 11rem;
+  }
+}

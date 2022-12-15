@@ -699,4 +699,12 @@ video {
   .xl\:basis-1\/4 {
     flex-basis: 25%;
   }
+
+  .xl\:basis-1\/5 {
+    flex-basis: 20%;
+  }
+
+  .xl\:pl-28 {
+    padding-left: 7rem;
+  }
 }

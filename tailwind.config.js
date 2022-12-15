@@ -11,6 +11,9 @@ module.exports = {
         'blue': '#4C5FD5',
         'lilac': '#dadbf1',
       },
+      height:{
+        '700' : '43.75rem'
+      }
     },
   },
   plugins: [],

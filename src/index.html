@@ -10,11 +10,11 @@
   </head>
 
   <body class="font-pretendard">
-    <header class="text-white bg-black px-4 py-2 relative">
+    <header class="relative px-4 py-2 text-white bg-black">
       <div class="flex justify-around ">
         <div class="flex">
           <h1 class="w-32">
-            <a class="text-2xl sm:text-2xl  pr-4 hover:opacity-70" href="/">
+            <a class="pr-4 text-2xl sm:text-2xl hover:opacity-70" href="/">
               <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 51"
                 preserveAspectRatio="xMinYMid slice">
                 <g class="abstract-logo-mark" fill="#fff">
@@ -54,7 +54,7 @@
           </h1>
           <div class="w-[2px] bg-white my-4"></div>
           <h2>
-            <a class="text-2xl sm:text-2xl inline-block p-4 hover:underline" href="/">Help Center </a>
+            <a class="inline-block p-4 text-2xl sm:text-2xl hover:underline" href="/">Help Center </a>
           </h2>
         </div>
 
@@ -69,22 +69,22 @@
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg> -->
           <div class="w-8 ml-4">
-            <div class="bg-white h-1"></div>
-            <div class="bg-white h-1 my-2"></div>
-            <div class="bg-white h-1"></div>
+            <div class="h-1 bg-white"></div>
+            <div class="h-1 my-2 bg-white"></div>
+            <div class="h-1 bg-white"></div>
           </div>
         </div>
 
-        <div class="hidden sm:flex flex-row items-center ">
-          <a class="border rounded-lg px-6 py-2 text-2xl mr-4" href="/">Submit a request</a>
-          <a class="border rounded-lg px-6 py-2 text-2xl border-blue bg-blue hover:bg-white hover:text-black transition"
+        <div class="flex-row items-center hidden sm:flex ">
+          <a class="px-6 py-2 mr-4 text-2xl border rounded-lg" href="/">Submit a request</a>
+          <a class="px-6 py-2 text-2xl transition border rounded-lg border-blue bg-blue hover:bg-white hover:text-black"
             href="/">Sign in</a>
         </div>
       </div>
     </header>
 
     <h3 class="sr-only">메인검색창</h3>
-    <section class="h-80 flex flex-col justify-center items-center bg-lilac">
+    <section class="flex flex-col items-center justify-center h-80 bg-lilac">
       <p class="text-4xl sm:text-6xl "> How can we help? </p>
       <form class="w-3/4 mt-8" method="POST" action="">
         <fieldset>
@@ -94,7 +94,7 @@
               type="search" placeholder="Search" />
             <label for="searchId">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="absolute -translate-y-1/2 top-1/2 right-5 w-6 h-6">
+                stroke="currentColor" class="absolute w-6 h-6 -translate-y-1/2 top-1/2 right-5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
             </label>
@@ -106,6 +106,7 @@
     </section>
 
     <section class="w-full px-4">
+      <h3 class="sr-only">Help list</h3>
       <ul class="grid grid-cols-1 mx-auto text-2xl max-w-screen-3xl my-28 gap-x-5 gap-y-24 md:grid-cols-2">
         <li class="flex">
           <div class="w-16 h-16 mr-5 transition duration-200 bg-cover bg-branch xl:w-20 xl:h-20"></div>
